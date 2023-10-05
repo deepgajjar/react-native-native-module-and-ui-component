@@ -4,6 +4,7 @@ import android.app.Application;
 
 import com.awesomeproject.CustomVIdeoPlayer.RNVideoPlayerPackage;
 import com.awesomeproject.testModule.TestPackage;
+import com.awesomeproject.videoPlayerInKotlin.RNVideoPlayerPackageKT;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;
@@ -30,6 +31,7 @@ public class MainApplication extends Application implements ReactApplication {
           // packages.add(new MyReactNativePackage());
             packages.add(new ToastPackage());
             packages.add(new RNVideoPlayerPackage());
+            packages.add(new RNVideoPlayerPackageKT());
 //            packages.add(new TestPackage());
           return packages;
         }

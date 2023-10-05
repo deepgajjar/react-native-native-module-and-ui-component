@@ -1,6 +1,7 @@
 import { Text, View ,StyleSheet,requireNativeComponent} from "react-native"
 
-const VPlayer = requireNativeComponent('RNVideoPlayer');
+// const VPlayer = requireNativeComponent('RNVideoPlayer');
+const VPlayer = requireNativeComponent('RNVideoPlayerKT');
 export const VideoPlayer = (props:any) => {
     return(
         <View style={[styles.container, props.styles]}>

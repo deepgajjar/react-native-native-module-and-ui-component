@@ -44,7 +44,8 @@ const onVideoCompleted = useCallback(() => {
         }}>
         <VideoPlayer
             source={
-                'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4'
+                "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4"
+                // 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4'
             }
             autoPlay={true}
             paused={paused}

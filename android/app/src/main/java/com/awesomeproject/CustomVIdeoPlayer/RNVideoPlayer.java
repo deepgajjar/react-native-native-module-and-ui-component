@@ -51,7 +51,6 @@ public class RNVideoPlayer extends VideoView {
         videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
             public void onPrepared(MediaPlayer mp) {
                 onVideoLoaded();
-
                 if(autoPlay) {
                     videoView.start();
                 }
